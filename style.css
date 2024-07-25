@@ -3,7 +3,7 @@ html {
     height: 100%;
 }
 * {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: "Segoe UI";
 }
 
 body{
@@ -16,44 +16,74 @@ a {
     color: whitesmoke;
 }
 
-
-.logoWithName {
-    float: left;
+nav input {
+    background-color: #0E0E0E;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    color: #868D9B;
+    width: 200px;
 }
 
+nav button {
+    background-color: #0078D4;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 90px;
+}
 
-.logo {
+nav button:hover{
+    background-color: #0a69b1;
+}
+
+nav {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+}
+
+nav .logo {
     margin-top: 10px;
     margin-right: 10px;
     width: 25px;
     height: 25px;
 }
 
-.name {
+nav .name {
     margin-top: 7px;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
 }
 
-input {
-    background-color: #0E0E0E;
-    border: 1px solid #323232;
-    border-radius: 5px;
-    color: #868D9B;
-}
-
-nav {
-    display: flex;
-    justify-content:center;
-    margin: 10px;
-}
-
-.items {
+nav .items {
     margin-top: 7px;
     font-size: 20px;
-    color: #818896;
+    color: #888e99;
 }
 
-.items:hover {
+nav .items:hover {
     color: whitesmoke;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    color: #929CAE;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.versionSpan{
+    text-decoration: underline;
+    color: #4796d3;
+}
+
+.smallText{
+    float: left;
+    background-color: #181818;
+    border: 2px solid #282828;
+    border-radius: 10px;
+    height: 25px;
+    width: auto;
 }
