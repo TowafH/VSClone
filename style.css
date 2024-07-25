@@ -1,0 +1,59 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body{
+    background-color: #0E0E0E;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.logoWithName {
+    float: left;
+}
+
+
+.logo {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.name {
+    margin-top: 7px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+input {
+    background-color: #0E0E0E;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    color: #868D9B;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+}
+
+.items {
+    margin-top: 7px;
+    font-size: 20px;
+    color: #818896;
+}
+
+.items:hover {
+    color: whitesmoke;
+}
