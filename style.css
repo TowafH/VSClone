@@ -60,13 +60,14 @@ nav .items {
     margin-top: 7px;
     font-size: 20px;
     color: #888e99;
+    font-weight: 600;
 }
 
 nav .items:hover {
     color: whitesmoke;
 }
 
-.message {
+.update {
     display: flex;
     justify-content: center;
     color: #929CAE;
@@ -79,11 +80,60 @@ nav .items:hover {
     color: #4796d3;
 }
 
-.smallText{
-    float: left;
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.container img {
+    width: auto;
+    height: 500px;
+}
+
+.container .Tagline {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #9ba3b4;
     background-color: #181818;
     border: 2px solid #282828;
     border-radius: 10px;
-    height: 25px;
-    width: auto;
+    height: 20px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: -30px;
+}
+
+.columnText {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 60px;
+}
+
+.container button {
+    background-color: #0078D4;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 600;
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container button:hover{
+    background-color: #0a69b1;
+}
+
+.container p {
+    color: #9ba3b4;
+}
+
+.container .disclaimer {
+    font-size: 11px;
 }
